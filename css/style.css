@@ -1,0 +1,511 @@
+
+:root {
+    --text-hover:#56597A;
+    --pink:#F78BB6; 
+    --gray:#919299;
+    --text:#AAAAAB;
+    --white:#ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background: url(/images/header_top.png) no-repeat right top;    
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;    
+}
+
+.btn {
+    color: var(--white);
+    font-size: 20px;
+    padding: 18px 23px;
+    background: var(--pink);
+    border: none;
+    border-radius: 4px;
+}
+
+/* ===========================Hedaer start================================ */
+
+/* =================================Nav start========================= */
+
+.nav {
+    margin-bottom: 130px;
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 58px;
+}
+
+.nav_list {
+    display: flex;
+}
+
+.nav_item {
+    padding-right: 72px;
+    transition: .5s;
+}
+
+.nav_item:hover .nav_link  {
+    color: var(--text-hover);
+}
+
+.nav_link {
+    color: var(--text);
+    font-size: 20px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+.nav_item i {
+    color: var(--gray);
+    transition: .5s;
+}
+
+.nav_item:hover i {
+    color: var(--text-hover);
+}
+
+/* ===================================Hedaer start(2)================================= */
+
+.header_container {
+    display: flex;
+}
+
+.header_info {
+    max-width: 600px;
+    width: 100%;
+}
+
+.header_txt {
+    color: var(--pink);
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.header_title {
+    color: var(--text-hover);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    margin-bottom: 31px;
+}
+
+.header_text {
+    max-width: 537px;
+    width: 100%;
+    color: #919299;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    margin-bottom: 42px;
+}
+
+
+/* ==========================================Main start================================= */
+
+/* =========================================Cards start===================================*/
+
+.cards_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_text {
+    color: var(--pink);
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 6px;
+}
+
+.section_title {
+    color: var(--text-hover);
+    font-weight: 700;
+    font-size: 52px;
+    margin-bottom: 58px;
+}
+
+.cards {
+    display: flex;
+    margin-bottom: 195px;
+}
+
+.card {
+    max-width: 270px;
+    height: 307px;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFF1F9;
+    margin-right: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+.card:hover {
+    background: #F78CB6;
+    height: 344px;
+}
+
+.card:hover i {
+    color: var(--white);
+}
+
+.card:hover .card_text {
+    color: var(--white);
+}
+
+.card:hover .card_title {
+    color: var(--white);
+}
+
+.card i {
+    margin-top: 56px;
+    color: var(--pink);
+}
+
+.card_title {
+    color: var(--text-hover);
+    font-weight: 500;
+    font-size: 34px;
+    margin-top: 42px;
+}
+
+.card_text {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #919299;
+    margin-top: 4px;
+    margin-bottom: 23px;
+}
+
+/* =============================================Design start==================================== */
+
+#design {
+    margin-bottom: 200px;
+}
+
+.design_container {
+    display: flex;
+    column-gap: 80px;
+}
+
+.design_txt {
+    color: var(--pink);
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.design_title {
+    color: var(--text-hover);
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 62px;
+    margin-bottom: 24px;
+}
+
+.design_text {
+    color: #919299;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+
+/* ==========================================Teamwork start============================ */
+#teamwork {
+    margin-bottom: 207px;
+}
+
+.teamwork_container {
+    display: flex;
+}
+
+.teamwork_txt {
+    font-weight: 500;
+    font-size: 28px;
+    color: var(--pink);
+    margin-bottom: 15px;
+}
+
+.teamwork_title {
+    color: var(--text-hover);
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 62px;  
+    margin-bottom: 24px;
+}
+
+.teamwork_text {
+    color: #919299;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+/* =========================================Testimonial start======================= */
+
+#testimonial {
+    margin-bottom: 230px;
+}
+
+.testimonial_container {
+    display: flex;
+}
+
+.testimonial_txt {
+    color: var(--pink);
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.testimonial_title {
+    color: var(--text-hover);
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 62px;
+    margin-bottom: 38px;
+}
+
+.text_area {
+    max-width: 400px;
+    width: 100%;
+}
+
+.testimonial_text {
+    color: #919299;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 23px;
+}
+
+.testimonial_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial_title-footer {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.testimonial_title-footer  span {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: var(--text);
+}
+
+.buttons i {
+    color: var(--text);
+    transition: .5s;
+}
+
+.buttons i:hover {
+    color: var(--pink);
+}
+
+/* ============================================Logos start================================= */
+#logos {
+    margin-bottom: 106px;
+}
+
+.logo_list {
+    display: flex;
+}
+
+.logo_item {
+    margin-right: 90px;
+}
+
+.logo_item:nth-of-type(1) {
+    margin-top: -50px;
+}
+
+/* =================================================Email start==================================== */
+
+#email {
+    background: url(/images/main_right.png) no-repeat right;
+    margin-bottom: 160px;
+}
+
+.email_container {
+    display: flex;
+    column-gap: 88px;
+}
+
+
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.email_title {
+    color: var(--text-hover);
+    font-weight: 700;
+    font-size: 52px;
+    margin-bottom: 18px;
+}
+
+.email_text {
+    max-width: 400px;
+    width: 100%;
+    color: #919299;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.email_input {
+    max-width: 706px;
+    width: 100%;
+    background: var(--white);
+    filter: drop-shadow(20px 20px 40px rgba(205, 205, 205, 0.25));
+
+}
+
+.email__input {
+    border: none;
+    margin-right: 230px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #D2D2D2;
+}
+
+
+/* ==============================================Footer start================================== */
+
+
+#footer {
+    background: url(/images/footer_background.png);
+    padding-bottom: 52px;
+}
+
+
+.footer_container {
+    display: flex;
+    column-gap: 210px;
+}
+
+
+.footer_logo {
+    margin-bottom: 38px;
+}
+
+.footer_txt {
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    font-size: 20px;
+    color: #919299;
+    margin-bottom: 38px;
+}
+
+.footer_txt span {
+    display: block;
+}
+
+.footer_link-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #919299;
+}
+
+.images {
+    column-gap: 11px;
+}
+
+.footer_lists {
+    margin-top: -25px;
+    display: flex;
+    column-gap: 168px;
+}
+
+.footer_item {
+    margin-top: 25px;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+}
+
+.footer_link {
+    color: #919299; 
+}
+
+.footer_link:first-of-type {
+    color: #56597A;
+}
+
+.footer_item:first-of-type {
+    font-weight: 700;
+    font-size: 21px;
+    margin-bottom: 32px;
+}
+
+.footer_footer {
+    width: 1440px;
+    width: 100%;
+    background: var(--pink);
+}
+
+.footer_footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_footer-txt {
+    font-size: 14px;
+    font-weight: 450;
+    padding: 12px 0;
+    color: var(--white);
+    letter-spacing: 0.02em;
+}
+
+.select {
+    font-size: 14px;
+    color: var(--white);
+    border: none;
+    background: var(--pink);
+}
+
+.lang {
+    border: none;
+}
